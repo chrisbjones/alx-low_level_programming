@@ -1,7 +1,9 @@
+#include <stdio.h>
+
 /**
  *main - Entry point
  *
- *Description: function printf is exportin:g a text to standard
+ *Description: function printf is exporting a text to standard
  *
  *Return: Always 0(success)
  */
