@@ -2,9 +2,8 @@
 
 /* Add code into entry point main */
 
-int main(void)
+int main(void) /* main - entry point to the program */
 {
-	/* main - entry point to the program */
-	puts(""Programming is like building a multilingual puzzle\n");
+	puts("Programming is like building a multilingual puzzle\n");
 	return (0);
 }
