@@ -1,8 +1,14 @@
 #include <stdio.h>
 
-/* Add code into entry point main */
+/**
+ *main - Entry point
+ *
+ *Description: function puts is printing a text to standard
+ *
+ *Return: Always 0(success)
+ */
 
-int main(void) /* main - entry point to the program */
+int main(void) :
 {
 	puts("Programming is like building a multilingual puzzle\n");
 	return (0);
