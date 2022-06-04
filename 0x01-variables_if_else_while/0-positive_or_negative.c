@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- *main - print result of the number either positive , negative or zero
+ *main - print result of the n either positive , negative or zero
  *
- *return: always 0.
+ *return: always 0 SUCCESS
  **/
 
 int main(void)
@@ -13,13 +13,13 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n; rand(void) - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-	printf("int is positive\n,n");
+	printf("%d is positive\n,n");
 	else if (n == 0)
-	printf("int is zero\n,n");
+	printf("%d is zero\n,n");
 	else
-	printf("int is negative\n,n");
+	printf("%d is negative\n,n");
 	return (0);
 }
