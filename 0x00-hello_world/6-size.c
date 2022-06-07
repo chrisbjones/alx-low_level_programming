@@ -15,10 +15,10 @@ int main(void)
 	char charType;
 
 	/* Sizeof operator evalute the size of the variable */
-	printf("Size of int: %ld bytes\n", sizeof (integerType));
-	printf("size of float: %ld bytes \n", sizeof (floatType));
-	printf("size of double: %ld bytes \n", sizeof (doubleType));
-	printf("size of char: %ld bytes\n", sizeof (charType));
+	printf("Size of int: %ld bytes\n",(unsigned long) sizeof (integerType));
+	printf("size of float: %ld bytes \n",(unsigned long)sizeof (floatType));
+	printf("size of double: %ld bytes\n",(unsigned long)sizeof(doubleType));
+	printf("size of char: %ld bytes\n",(unsigned long)sizeof (charType));
 	return (0);
 }
 
