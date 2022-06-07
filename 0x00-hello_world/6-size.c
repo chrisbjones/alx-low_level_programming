@@ -7,12 +7,19 @@
  *Return: (0) if proper
  */
 
-int main(void)
+int main()
 {
-        printf("Size of a char: %d byte(s)\n", sizeof(int));
-	printf("Size of a float: %d byte(s)\n", sizeof(float));
-	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-	printf("Size of an int: %d byte(s)\n", sizeof(int));
-        return (0);
+	int integerType;
+	float floatType;
+	double doubleType;
+	char charType;
+
+	/* Sizeof operator evalute the size of the variable */
+	printf("Size of int: %ld bytes\n", sizeof (integerType));
+	printf("size of float: %ld bytes \n", sizeof (floatType));
+	printf("size of double: %ld bytes \n", sizeof (doubleType));
+	printf("size of char: %ld bytes\n", sizeof (charType));
+			   
+	return (0);
+}
 
