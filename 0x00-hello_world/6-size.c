@@ -7,7 +7,7 @@
  *Return: (0) if proper
  */
 
-int main()
+int main(void)
 {
 	int integerType;
 	float floatType;
@@ -19,7 +19,6 @@ int main()
 	printf("size of float: %ld bytes \n", sizeof (floatType));
 	printf("size of double: %ld bytes \n", sizeof (doubleType));
 	printf("size of char: %ld bytes\n", sizeof (charType));
-			   
 	return (0);
 }
 
