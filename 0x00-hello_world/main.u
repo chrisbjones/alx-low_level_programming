@@ -1,0 +1,2 @@
+#!/bin/bash
+make 6-size.c
