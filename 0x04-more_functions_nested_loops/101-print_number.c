@@ -7,5 +7,6 @@
  */
 void print_number(int n)
 {
-	return (n);
+	void(print_number)
+	return 0;
 }
