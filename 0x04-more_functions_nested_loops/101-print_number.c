@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_number - prints a function for integer
  * @n: input
@@ -6,6 +7,5 @@
  */
 void print_number(int n)
 {
-
-	return (0);
+	return (n);
 }
