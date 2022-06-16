@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * reverse_array - This function Reverses the content of an array of integers.
