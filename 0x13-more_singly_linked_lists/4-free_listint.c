@@ -1,17 +1,20 @@
 #include "lists.h"
+
 /**
- * free_listint - Entry Point
- * @head: head
- * Return: 0
+ * free_listint - function with one argument
+ * @head: pointer to node
+ *
+ * Description: frees a list
+ * Return: void
  */
 void free_listint(listint_t *head)
 {
-	if (head == NULL)
-		return;
+	listint_t *traverse;
 
 	while (head)
 	{
+		traverse = head->next;
 		free(head);
-		head = head->next;
+		head = traverse;
 	}
-}
+}}

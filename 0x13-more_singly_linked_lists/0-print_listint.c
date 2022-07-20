@@ -1,15 +1,15 @@
 #include "lists.h"
+
 /**
- * print_listint - Entry Point
- * @h: head
- * Return: 0
+ * print_listint - function with one argument
+ * @h: pointer to struct
+ *
+ * Description: prints all the elements of a list
+ * Return: number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
 	int count = 0;
-
-	if (h == NULL)
-		return (0);
 
 	while (h != NULL)
 	{
@@ -17,6 +17,5 @@ size_t print_listint(const listint_t *h)
 		h = h->next;
 		count++;
 	}
-
 	return (count);
-}
+}}
